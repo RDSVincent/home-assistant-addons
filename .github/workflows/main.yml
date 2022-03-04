@@ -21,7 +21,7 @@ jobs:
 
       - name: Commit & push changes
         run: |
-          git config --global user.name "RDSV""
+          git config --global user.name "RDSV"
           git config --global user.email "vincent@rdsv.fr"
           git commit -am "Update submodules"
           git push
